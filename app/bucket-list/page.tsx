@@ -1,6 +1,6 @@
 import { CircleCheck, Flag, Sparkles } from "lucide-react";
 import { SectionHeader } from "@/components/SectionHeader";
-import { bucketList, hikes } from "@/lib/data";
+import { bucketList, getAdventureStats } from "@/lib/data";
 
 const statusColor = {
   Planned: "bg-moss/15 text-forest",
@@ -10,7 +10,7 @@ const statusColor = {
 
 export default function BucketListPage() {
   const target = 50;
-  const completed = hikes.length;
+  const completed = getAdventureStats().mountains;
   const progress = Math.min((completed / target) * 100, 100);
 
   return (
