@@ -4,8 +4,10 @@ export type Hike = {
   date: string;
   location: string;
   coordinates: [number, number];
+  summitCount?: number;
   elevation: number;
-  distance: number;
+  elevationLabel?: string;
+  distance: number | null;
   elevationGain: number;
   difficulty: string;
   memory: string;

@@ -1,91 +1,177 @@
 [
   {
+    "slug": "mt-yangbew",
+    "name": "Mt. Yangbew",
+    "date": "2026-03-08",
+    "location": "La Trinidad, Benguet, Philippines",
+    "coordinates": [16.453989, 120.607052],
+    "summitCount": 1,
+    "elevation": 1648,
+    "elevationLabel": "1,648 m",
+    "distance": 3.1,
+    "elevationGain": 223,
+    "difficulty": "1/9",
+    "memory": "An early taxi ride, a quiet summit, and time made for each other.",
+    "coverPhoto": "/photos/yangbew/cover.jpg",
+    "photos": [
+      "/photos/yangbew/cover.jpg",
+      "/photos/yangbew/gallery-01.jpg",
+      "/photos/yangbew/gallery-02.jpg",
+      "/photos/yangbew/gallery-03.jpg",
+      "/photos/yangbew/gallery-04.jpg"
+    ],
+    "story": {
+      "climb": "We decided to take a taxi so we could start early, knowing she still had a worship service to attend later that day. The summit felt different from the others we had visited, almost like a peaceful park with horses, small stores, and benches where we could sit and take in the surroundings.",
+      "favoriteMoment": "My favorite moment was how simple and calm everything felt. We did not need a difficult trail for the day to matter; we just made time for a small adventure before the rest of the day began.",
+      "lessons": "Mt. Yangbew reminded us that some memories are beautiful because they are gentle. Love can be as simple as waking up early, adjusting the day for each other, and still finding a place to breathe together."
+    }
+  },
+  {
+    "slug": "mt-kalugong",
+    "name": "Mt. Kalugong",
+    "date": "2026-03-30",
+    "location": "La Trinidad, Benguet, Philippines",
+    "coordinates": [16.460278, 120.595556],
+    "summitCount": 1,
+    "elevation": 1472,
+    "elevationLabel": "1,472 m",
+    "distance": 2.2,
+    "elevationGain": 120,
+    "difficulty": "2/9",
+    "memory": "She climbed the rocks bravely while I tried not to worry too much.",
+    "coverPhoto": "/photos/kalugong/cover.jpg",
+    "photos": [
+      "/photos/kalugong/cover.jpg",
+      "/photos/kalugong/gallery-01.jpg",
+      "/photos/kalugong/gallery-02.jpg",
+      "/photos/kalugong/gallery-03.jpg",
+      "/photos/kalugong/gallery-04.jpg",
+      "/photos/kalugong/gallery-05.jpg",
+      "/photos/kalugong/gallery-06.jpg"
+    ],
+    "story": {
+      "climb": "Mt. Kalugong's summit was filled with large rock formations that opened up to wide views of the surrounding mountains. The climb was not long, but the rocks made the experience feel exciting and a little risky.",
+      "favoriteMoment": "My favorite moment was watching her reach the higher rocks and taking photos of her there. While I was busy worrying, she seemed focused on enjoying the experience.",
+      "lessons": "Mt. Kalugong taught me that loving someone means both wanting to protect them and learning to admire their courage. Sometimes the person you worry about is also the person who teaches you bravery."
+    }
+  },
+  {
+    "slug": "mt-pinatubo",
+    "name": "Mt. Pinatubo",
+    "date": "2026-05-17",
+    "location": "Zambales, Tarlac, and Pampanga, Central Luzon, Philippines",
+    "coordinates": [15.141667, 120.35],
+    "summitCount": 1,
+    "elevation": 1486,
+    "elevationLabel": "1,486 m",
+    "distance": 10.5,
+    "elevationGain": 412,
+    "difficulty": "2/9",
+    "memory": "Dusty hair, lahar trails, and a crater lake we will not forget.",
+    "coverPhoto": "/photos/pinatubo/cover.jpg",
+    "photos": [
+      "/photos/pinatubo/cover.jpg",
+      "/photos/pinatubo/gallery-01.jpg",
+      "/photos/pinatubo/gallery-02.jpg",
+      "/photos/pinatubo/gallery-03.jpg",
+      "/photos/pinatubo/gallery-04.jpg",
+      "/photos/pinatubo/gallery-05.jpg",
+      "/photos/pinatubo/gallery-06.jpg",
+      "/photos/pinatubo/gallery-07.jpg"
+    ],
+    "story": {
+      "climb": "The 4x4 ride left our hair coated with dust from the lahar, making it feel sticky and messy by the time we arrived. It was not the most comfortable part of the trip, but the wide volcanic landscape made the whole journey feel unforgettable.",
+      "favoriteMoment": "My favorite moment was reaching the crater lake and taking photos and videos with the water, the mountains, and the quiet view behind us.",
+      "lessons": "Mt. Pinatubo reminded us that even the uncomfortable parts of an adventure can become part of the story. Sometimes the dust, heat, and mess are the details that make the memory feel real."
+    }
+  },
+  {
+    "slug": "mt-fato",
+    "name": "Mt. Fato",
+    "date": "2026-05-24",
+    "location": "Bontoc, Mountain Province, Philippines",
+    "coordinates": [17.121944, 120.968056],
+    "summitCount": 1,
+    "elevation": 1438,
+    "elevationLabel": "1,438 m",
+    "distance": 4.3,
+    "elevationGain": 200,
+    "difficulty": "3/9",
+    "memory": "Our first climb that truly made us feel the ascent.",
+    "coverPhoto": "/photos/fato/cover.jpg",
+    "photos": [
+      "/photos/fato/cover.jpg",
+      "/photos/fato/gallery-01.jpg",
+      "/photos/fato/gallery-02.jpg",
+      "/photos/fato/gallery-03.jpg",
+      "/photos/fato/gallery-04.jpg",
+      "/photos/fato/gallery-05.jpg",
+      "/photos/fato/gallery-06.jpg",
+      "/photos/fato/gallery-07.jpg"
+    ],
+    "story": {
+      "climb": "The trail began with a long, steady ascent, and it was the first mountain that truly tested us. For the first time, we felt our breathing grow heavier with every step as the climb stretched on.",
+      "favoriteMoment": "My favorite moments were reaching the signage, sitting together on the rock above for photos, and seeing the Maligcong Rice Terraces from afar.",
+      "lessons": "Mt. Fato taught us that a difficult climb can reveal how strong we are together. The hard parts became meaningful because we kept moving through them side by side."
+    }
+  },
+  {
+    "slug": "mt-kupapey",
+    "name": "Mt. Kupapey",
+    "date": "2026-05-24",
+    "location": "Bontoc, Mountain Province, Philippines",
+    "coordinates": [17.133889, 120.974167],
+    "summitCount": 1,
+    "elevation": 1647,
+    "elevationLabel": "1,647 m",
+    "distance": 6.6,
+    "elevationGain": 300,
+    "difficulty": "3/9",
+    "memory": "A gentler second summit with a breathtaking rice terrace view.",
+    "coverPhoto": "/photos/kupapey/cover.jpg",
+    "photos": [
+      "/photos/kupapey/cover.jpg",
+      "/photos/kupapey/gallery-01.jpg",
+      "/photos/kupapey/gallery-02.jpg",
+      "/photos/kupapey/gallery-03.jpg",
+      "/photos/kupapey/gallery-04.jpg",
+      "/photos/kupapey/gallery-05.jpg",
+      "/photos/kupapey/gallery-06.jpg"
+    ],
+    "story": {
+      "climb": "This climb came after Mt. Fato and continued the journey with a few more ascents, though they felt much gentler after everything we had already conquered. The trail gave us a slower, more grateful kind of energy.",
+      "favoriteMoment": "My favorite moment was reaching the summit and seeing the Maligcong Rice Terraces stretching across the mountainside below. After the effort it took to get there, the view felt even more unforgettable.",
+      "lessons": "Mt. Kupapey reminded us that the reward sometimes comes after we think the hardest part is over. Continuing forward can lead to a view that makes every tired step feel worth it."
+    }
+  },
+  {
     "slug": "alang-salacsac-quad-peak",
-    "name": "Alang Salacsac Quad Peak",
+    "name": "Alang-Salacsac Quad Peak",
     "date": "2026-05-31",
-    "location": "Nueva Vizcaya, Philippines",
-    "coordinates": [16.4696, 121.1148],
-    "elevation": 1069,
+    "location": "Barangay Alang-Salacsac, Kayapa, Nueva Vizcaya, Philippines",
+    "coordinates": [16.348611, 120.852778],
+    "summitCount": 4,
+    "elevation": 1467,
+    "elevationLabel": "Mt. Tugew 1,467 m, Mt. Kabuan 1,457 m, Mt. Sadjatan 1,438 m, Mt. Cabo 1,320 m",
     "distance": 13.31,
-    "elevationGain": 835,
-    "difficulty": "Challenging",
-    "memory": "Somewhere between the first peak and the fourth, I realized the best view was walking beside you.",
-    "coverPhoto": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1600&q=85",
+    "elevationGain": 1069,
+    "difficulty": "3/9",
+    "memory": "A breezy open trail with mountains and clouds all around us.",
+    "coverPhoto": "/photos/alang-salacsac/cover.jpg",
     "photos": [
-      "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1600&q=85",
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=85",
-      "https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?auto=format&fit=crop&w=1600&q=85"
+      "/photos/alang-salacsac/cover.jpg",
+      "/photos/alang-salacsac/gallery-01.jpg",
+      "/photos/alang-salacsac/gallery-02.jpg",
+      "/photos/alang-salacsac/gallery-03.jpg",
+      "/photos/alang-salacsac/gallery-04.jpg",
+      "/photos/alang-salacsac/gallery-05.jpg",
+      "/photos/alang-salacsac/gallery-06.jpg",
+      "/photos/alang-salacsac/gallery-07.jpg"
     ],
     "story": {
-      "climb": "This climb asked for patience, steady feet, and the kind of teamwork that turns a difficult trail into a shared promise. Every pause became a chance to breathe, laugh, check on each other, and keep going.",
-      "favoriteMoment": "Our favorite moment was reaching a quiet stretch of the ridge and feeling the world open up around us. It felt like the mountain was giving us a private birthday-sized secret.",
-      "lessons": "This mountain reminded us that love is not only in the summit photo. It is in the water breaks, the muddy shoes, the hand offered on steep ground, and the decision to keep choosing the trail together."
-    }
-  },
-  {
-    "slug": "mount-pulag",
-    "name": "Mount Pulag",
-    "date": "2025-02-15",
-    "location": "Benguet, Philippines",
-    "coordinates": [16.5833, 120.8833],
-    "elevation": 2926,
-    "distance": 11.2,
-    "elevationGain": 720,
-    "difficulty": "Moderate",
-    "memory": "We watched the clouds turn gold and learned that some sunrises are worth every cold step.",
-    "coverPhoto": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1600&q=85",
-    "photos": [
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1600&q=85",
-      "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=85"
-    ],
-    "story": {
-      "climb": "Pulag felt like walking into a dream before sunrise. The trail was quiet, the air was cold, and every step upward made the morning feel more sacred.",
-      "favoriteMoment": "Standing together above the sea of clouds, wrapped in jackets and sleepy smiles, was the kind of moment that made everything else disappear.",
-      "lessons": "Pulag taught us that wonder often asks us to wake early, trust the dark, and keep moving before the beauty is visible."
-    }
-  },
-  {
-    "slug": "mount-ulap",
-    "name": "Mount Ulap",
-    "date": "2024-11-23",
-    "location": "Itogon, Benguet, Philippines",
-    "coordinates": [16.3076, 120.6628],
-    "elevation": 1846,
-    "distance": 9.0,
-    "elevationGain": 515,
-    "difficulty": "Moderate",
-    "memory": "A windy ridge, a hundred tiny jokes, and the feeling that our story had found another beautiful chapter.",
-    "coverPhoto": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=1600&q=85",
-    "photos": [
-      "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=1600&q=85",
-      "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=1600&q=85"
-    ],
-    "story": {
-      "climb": "Mount Ulap gave us rolling ridges, pine-scented air, and enough wind to make every photo feel dramatic. It was playful, beautiful, and full of little pauses we wanted to remember.",
-      "favoriteMoment": "The favorite moment was laughing on the ridge while trying to take a decent photo in the wind. The imperfect ones became the most honest.",
-      "lessons": "Ulap reminded us that not every adventure has to be heavy to matter. Some mountains teach joy simply by giving us room to laugh."
-    }
-  },
-  {
-    "slug": "mount-daraitan",
-    "name": "Mount Daraitan",
-    "date": "2024-07-20",
-    "location": "Tanay, Rizal, Philippines",
-    "coordinates": [14.6023, 121.4318],
-    "elevation": 739,
-    "distance": 8.8,
-    "elevationGain": 620,
-    "difficulty": "Challenging",
-    "memory": "Sharp rocks, tired legs, and the kind of teamwork that made us feel even closer.",
-    "coverPhoto": "https://images.unsplash.com/photo-1477346611705-65d1883cee1e?auto=format&fit=crop&w=1600&q=85",
-    "photos": [
-      "https://images.unsplash.com/photo-1477346611705-65d1883cee1e?auto=format&fit=crop&w=1600&q=85",
-      "https://images.unsplash.com/photo-1527489377706-5bf97e608852?auto=format&fit=crop&w=1600&q=85"
-    ],
-    "story": {
-      "climb": "Daraitan was rugged and stubborn in the best way. The limestone trail demanded focus, but the reward came through views, river light, and that quiet pride after a difficult climb.",
-      "favoriteMoment": "The best part was reaching the viewpoint and seeing how every tough step suddenly made sense.",
-      "lessons": "Daraitan taught us that hard trails are easier when we know someone is beside us, moving at the same brave pace."
+      "climb": "The trail was gentle and breezy, opening up to stunning views in every direction. Across Mt. Tugew, Mt. Cabo, Mt. Kabuan, and Mt. Sadjatan, it felt like the mountains kept giving us space to run freely, sit quietly, catch our breath, and take in the clouds drifting across the landscape.",
+      "favoriteMoment": "My favorite moment was seeing the view from each peak and finally getting the drone shot we had been craving. Seeing ourselves from far away, walking or running on the trail with mountains and clouds behind us, felt so beautiful.",
+      "lessons": "Alang-Salacsac reminded us that an adventure can feel light and freeing while still becoming unforgettable. Not every meaningful climb has to be heavy; some simply give us room to breathe."
     }
   }
 ]

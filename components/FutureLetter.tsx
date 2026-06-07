@@ -16,7 +16,11 @@ export function FutureLetter() {
         <p className="mb-3 text-xs font-semibold uppercase tracking-[0.28em] text-rosewood">Future Letter</p>
         <h2 className="font-serif text-3xl text-forest">{futureLetter.title}</h2>
         {open ? (
-          <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-ink/75">{futureLetter.message}</p>
+          <div className="mx-auto mt-6 max-w-2xl space-y-5 text-left text-lg leading-8 text-ink/75">
+            {futureLetter.message.split("\n\n").map((paragraph) => (
+              <p key={paragraph}>{paragraph}</p>
+            ))}
+          </div>
         ) : (
           <button
             type="button"

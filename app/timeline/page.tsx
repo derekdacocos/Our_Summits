@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { CalendarDays, Mountain, Route, TrendingUp } from "lucide-react";
 import { SectionHeader } from "@/components/SectionHeader";
-import { chronologicalHikes, formatDate } from "@/lib/data";
+import { chronologicalHikes, formatDate, formatDistance, formatElevation } from "@/lib/data";
 
 export default function TimelinePage() {
   return (
@@ -25,9 +25,9 @@ export default function TimelinePage() {
                   <p className="mb-2 flex items-center gap-2 text-sm text-ember"><CalendarDays size={16} />{formatDate(hike.date)}</p>
                   <h2 className="font-serif text-2xl text-forest">{hike.name}</h2>
                   <div className="mt-4 grid grid-cols-3 gap-3 text-xs text-ink/65">
-                    <span className="flex items-center gap-1"><Route size={14} />{hike.distance} km</span>
+                    <span className="flex items-center gap-1"><Route size={14} />{formatDistance(hike.distance)}</span>
                     <span className="flex items-center gap-1"><TrendingUp size={14} />{hike.elevationGain} m</span>
-                    <span className="flex items-center gap-1"><Mountain size={14} />{hike.elevation} m</span>
+                    <span className="flex items-center gap-1"><Mountain size={14} />{formatElevation(hike)}</span>
                   </div>
                   <p className="mt-4 text-sm leading-6 text-ink/70">{hike.memory}</p>
                   <Link href={`/summits/${hike.slug}`} className="mt-5 inline-flex rounded-full bg-forest px-5 py-2 text-sm font-semibold text-paper transition hover:bg-ember">

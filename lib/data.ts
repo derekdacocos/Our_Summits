@@ -24,9 +24,9 @@ export function getHikeBySlug(slug: string) {
 
 export function getAdventureStats() {
   return {
-    mountains: hikes.length,
+    mountains: hikes.reduce((sum, hike) => sum + (hike.summitCount ?? 1), 0),
     elevationGained: hikes.reduce((sum, hike) => sum + hike.elevationGain, 0),
-    distanceWalked: hikes.reduce((sum, hike) => sum + hike.distance, 0),
+    distanceWalked: hikes.reduce((sum, hike) => sum + (hike.distance ?? 0), 0),
     adventures: hikes.length
   };
 }
@@ -41,4 +41,12 @@ export function formatDate(date: string) {
 
 export function formatNumber(value: number) {
   return new Intl.NumberFormat("en").format(value);
+}
+
+export function formatDistance(distance: number | null) {
+  return distance === null ? "To be added" : `${distance.toFixed(1)} km`;
+}
+
+export function formatElevation(hike: Hike) {
+  return hike.elevationLabel ?? `${formatNumber(hike.elevation)} m`;
 }

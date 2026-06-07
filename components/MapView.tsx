@@ -5,7 +5,7 @@ import Link from "next/link";
 import L from "leaflet";
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import { CalendarDays, MapPin, Mountain } from "lucide-react";
-import { formatDate, hikes } from "@/lib/data";
+import { formatDate, formatElevation, hikes } from "@/lib/data";
 import "leaflet/dist/leaflet.css";
 
 const markerIcon = L.divIcon({
@@ -40,7 +40,7 @@ export function MapView() {
                 <div className="mt-2 space-y-1 text-xs text-ink/65">
                   <p className="flex items-center gap-1"><CalendarDays size={13} />{formatDate(hike.date)}</p>
                   <p className="flex items-center gap-1"><MapPin size={13} />{hike.location}</p>
-                  <p className="flex items-center gap-1"><Mountain size={13} />{hike.elevation} m</p>
+                  <p className="flex items-center gap-1"><Mountain size={13} />{formatElevation(hike)}</p>
                 </div>
                 <p className="mt-3 text-sm leading-5 text-ink/75">&ldquo;{hike.memory}&rdquo;</p>
                 <Link

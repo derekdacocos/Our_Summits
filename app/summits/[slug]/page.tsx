@@ -2,12 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, CalendarDays, MapPin, Mountain, Route, TrendingUp } from "lucide-react";
-import { formatDate, getHikeBySlug, hikes } from "@/lib/data";
+import { formatDate, formatDistance, formatElevation, getHikeBySlug, hikes } from "@/lib/data";
 
 type SummitPageProps = {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 };
 
 export function generateStaticParams() {
@@ -16,8 +16,9 @@ export function generateStaticParams() {
   }));
 }
 
-export function generateMetadata({ params }: SummitPageProps) {
-  const hike = getHikeBySlug(params.slug);
+export async function generateMetadata({ params }: SummitPageProps) {
+  const { slug } = await params;
+  const hike = getHikeBySlug(slug);
 
   if (!hike) {
     return {
@@ -31,8 +32,9 @@ export function generateMetadata({ params }: SummitPageProps) {
   };
 }
 
-export default function SummitPage({ params }: SummitPageProps) {
-  const hike = getHikeBySlug(params.slug);
+export default async function SummitPage({ params }: SummitPageProps) {
+  const { slug } = await params;
+  const hike = getHikeBySlug(slug);
 
   if (!hike) {
     notFound();
@@ -58,8 +60,8 @@ export default function SummitPage({ params }: SummitPageProps) {
         <div className="mx-auto grid max-w-7xl gap-4 sm:grid-cols-2 lg:grid-cols-5">
           {[
             { icon: MapPin, label: "Location", value: hike.location },
-            { icon: Mountain, label: "Elevation", value: `${hike.elevation} m` },
-            { icon: Route, label: "Distance", value: `${hike.distance} km` },
+            { icon: Mountain, label: "Elevation", value: formatElevation(hike) },
+            { icon: Route, label: "Distance", value: formatDistance(hike.distance) },
             { icon: TrendingUp, label: "Elevation Gain", value: `${hike.elevationGain} m` },
             { icon: CalendarDays, label: "Date", value: formatDate(hike.date) }
           ].map((item) => (

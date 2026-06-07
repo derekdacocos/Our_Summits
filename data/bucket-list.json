@@ -6,27 +6,21 @@
     "status": "Dream Hike"
   },
   {
-    "name": "Mount Kanlaon",
-    "location": "Negros Island",
-    "difficulty": "Hard",
-    "status": "Planned"
-  },
-  {
-    "name": "Mount Mayon",
-    "location": "Albay",
-    "difficulty": "Hard",
-    "status": "Dream Hike"
-  },
-  {
-    "name": "Mount Batulao",
-    "location": "Batangas",
-    "difficulty": "Easy to Moderate",
+    "name": "Mt. Purgatory",
+    "location": "Benguet",
+    "difficulty": "Moderate to Hard",
     "status": "Soon"
   },
   {
-    "name": "Mount Amuyao",
-    "location": "Mountain Province",
-    "difficulty": "Hard",
+    "name": "Mt. Batulao",
+    "location": "Batangas",
+    "difficulty": "Easy to Moderate",
+    "status": "Planned"
+  },
+  {
+    "name": "Mt. Ulap",
+    "location": "Itogon, Benguet",
+    "difficulty": "Moderate",
     "status": "Planned"
   }
 ]
