@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Mount Apo",
+    "location": "Davao del Sur / Cotabato",
+    "difficulty": "Hard",
+    "status": "Dream Hike"
+  },
+  {
+    "name": "Mount Kanlaon",
+    "location": "Negros Island",
+    "difficulty": "Hard",
+    "status": "Planned"
+  },
+  {
+    "name": "Mount Mayon",
+    "location": "Albay",
+    "difficulty": "Hard",
+    "status": "Dream Hike"
+  },
+  {
+    "name": "Mount Batulao",
+    "location": "Batangas",
+    "difficulty": "Easy to Moderate",
+    "status": "Soon"
+  },
+  {
+    "name": "Mount Amuyao",
+    "location": "Mountain Province",
+    "difficulty": "Hard",
+    "status": "Planned"
+  }
+]

@@ -1,0 +1,91 @@
+[
+  {
+    "slug": "alang-salacsac-quad-peak",
+    "name": "Alang Salacsac Quad Peak",
+    "date": "2026-05-31",
+    "location": "Nueva Vizcaya, Philippines",
+    "coordinates": [16.4696, 121.1148],
+    "elevation": 1069,
+    "distance": 13.31,
+    "elevationGain": 835,
+    "difficulty": "Challenging",
+    "memory": "Somewhere between the first peak and the fourth, I realized the best view was walking beside you.",
+    "coverPhoto": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1600&q=85",
+    "photos": [
+      "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1600&q=85",
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=85",
+      "https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?auto=format&fit=crop&w=1600&q=85"
+    ],
+    "story": {
+      "climb": "This climb asked for patience, steady feet, and the kind of teamwork that turns a difficult trail into a shared promise. Every pause became a chance to breathe, laugh, check on each other, and keep going.",
+      "favoriteMoment": "Our favorite moment was reaching a quiet stretch of the ridge and feeling the world open up around us. It felt like the mountain was giving us a private birthday-sized secret.",
+      "lessons": "This mountain reminded us that love is not only in the summit photo. It is in the water breaks, the muddy shoes, the hand offered on steep ground, and the decision to keep choosing the trail together."
+    }
+  },
+  {
+    "slug": "mount-pulag",
+    "name": "Mount Pulag",
+    "date": "2025-02-15",
+    "location": "Benguet, Philippines",
+    "coordinates": [16.5833, 120.8833],
+    "elevation": 2926,
+    "distance": 11.2,
+    "elevationGain": 720,
+    "difficulty": "Moderate",
+    "memory": "We watched the clouds turn gold and learned that some sunrises are worth every cold step.",
+    "coverPhoto": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1600&q=85",
+    "photos": [
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1600&q=85",
+      "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=85"
+    ],
+    "story": {
+      "climb": "Pulag felt like walking into a dream before sunrise. The trail was quiet, the air was cold, and every step upward made the morning feel more sacred.",
+      "favoriteMoment": "Standing together above the sea of clouds, wrapped in jackets and sleepy smiles, was the kind of moment that made everything else disappear.",
+      "lessons": "Pulag taught us that wonder often asks us to wake early, trust the dark, and keep moving before the beauty is visible."
+    }
+  },
+  {
+    "slug": "mount-ulap",
+    "name": "Mount Ulap",
+    "date": "2024-11-23",
+    "location": "Itogon, Benguet, Philippines",
+    "coordinates": [16.3076, 120.6628],
+    "elevation": 1846,
+    "distance": 9.0,
+    "elevationGain": 515,
+    "difficulty": "Moderate",
+    "memory": "A windy ridge, a hundred tiny jokes, and the feeling that our story had found another beautiful chapter.",
+    "coverPhoto": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=1600&q=85",
+    "photos": [
+      "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=1600&q=85",
+      "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=1600&q=85"
+    ],
+    "story": {
+      "climb": "Mount Ulap gave us rolling ridges, pine-scented air, and enough wind to make every photo feel dramatic. It was playful, beautiful, and full of little pauses we wanted to remember.",
+      "favoriteMoment": "The favorite moment was laughing on the ridge while trying to take a decent photo in the wind. The imperfect ones became the most honest.",
+      "lessons": "Ulap reminded us that not every adventure has to be heavy to matter. Some mountains teach joy simply by giving us room to laugh."
+    }
+  },
+  {
+    "slug": "mount-daraitan",
+    "name": "Mount Daraitan",
+    "date": "2024-07-20",
+    "location": "Tanay, Rizal, Philippines",
+    "coordinates": [14.6023, 121.4318],
+    "elevation": 739,
+    "distance": 8.8,
+    "elevationGain": 620,
+    "difficulty": "Challenging",
+    "memory": "Sharp rocks, tired legs, and the kind of teamwork that made us feel even closer.",
+    "coverPhoto": "https://images.unsplash.com/photo-1477346611705-65d1883cee1e?auto=format&fit=crop&w=1600&q=85",
+    "photos": [
+      "https://images.unsplash.com/photo-1477346611705-65d1883cee1e?auto=format&fit=crop&w=1600&q=85",
+      "https://images.unsplash.com/photo-1527489377706-5bf97e608852?auto=format&fit=crop&w=1600&q=85"
+    ],
+    "story": {
+      "climb": "Daraitan was rugged and stubborn in the best way. The limestone trail demanded focus, but the reward came through views, river light, and that quiet pride after a difficult climb.",
+      "favoriteMoment": "The best part was reaching the viewpoint and seeing how every tough step suddenly made sense.",
+      "lessons": "Daraitan taught us that hard trails are easier when we know someone is beside us, moving at the same brave pace."
+    }
+  }
+]
